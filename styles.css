@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+h1 {
+
+    font-size: 48px;
+  color: #333;
+  text-shadow: 2px 2px 3px rgb(255, 251, 251); 
+    /* text-shadow: 1px 1px 7px white; */
+}
+
+
+ #contactData a{
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 3px white; 
+    /* text-shadow: 2px 2px 4px white; */
+  }
+
+  #contactData i{
+    font-size: 2.5rem;
+    text-shadow: 3px 4px 1px white; 
+    /* text-shadow: 2px 2px 4px white; */
+  }
+
+  #contactData .col-5 .d-flex, .col-7 .d-flex {
+    /* border: thick solid red; */
+    height: 600px;
+  }
+
+  body {
+    background-image: url(images/BusinessCardBackground_Large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+ 
+
+  /* Media queries for larger screens */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) { /* sm breakpoint */
+    /* #contactData {
+        background-color: lightgreen;
+    } */
+
+    #contactData a{
+        font-size: 1.5rem;
+      }
+    
+      #contactData i{
+        font-size: 1.5rem;
+      }
+
+    body {
+        background-image: url(images/BusinessCardBackground_Small.png);
+    }  
+
+    #contactData .col-5 .d-flex, .col-7 .d-flex {
+      /* border: thick solid red; */
+      height: 579px;
+    }
+
+    h1 {
+
+      font-size: 32px;
+    }
+
+
+    header.mb-5 {
+      margin-bottom: 0rem !important; 
+    }
+
+    footer.mt-5 {
+      margin-top: 1.2rem !important;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-device-width: 991px){ /* md breakpoint */
+    /* #contactData {
+        background-color: yellow;
+        
+    } */
+
+    
+
+
+}
+
+@media (min-width: 992px) and (max-device-width: 1199px) { /* lg breakpoint */
+    /* #contactData {
+        background-color: lightcoral;
+    } */
+
+
+}
+
+@media (min-width: 1200px) and (max-device-width: 1399px){ /* xl breakpoint */
+    /* #contactData {
+        background-color: darkblue;
+    } */
+
+
+}
+
+@media (min-width: 1400px) { /* xxl breakpoint */
+    /* .responsive-div {
+        background-color: lightsalmon;
+    } */
+    /* #contactData .col-5 .d-flex, .col-7 .d-flex {
+        border: thin solid green;
+         height: auto;
+     } */
+}

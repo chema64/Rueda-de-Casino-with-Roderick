@@ -1,2 +1,2 @@
-# Rueda-de-Casino-with-Roderick
-A set of responsive video examples  for Rueda de Casino with Roderick
+# Business-Card
+Going to create a website that will link to a QR code on business card
