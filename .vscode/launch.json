@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome for Static Webpage",
+            "file": "${workspaceFolder}/index.html",  // Update this to match your entry HTML file
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": false,
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ]
+        }
+    ]
+}
+
+
