@@ -1,7 +1,16 @@
 var playerConfigs = [
-  {elementId: 'player1', videoId: 'SrR8FEk1GHc', startTime: 12, endTime:21},
-  {elementId: 'player2', videoId: 'c_wVwXROKLY', startTime: 10, endTime:12}
+  {elementId: 'player1', videoId: 'tsatgvpZjxg', startTime: 8, endTime:15},
+  {elementId: 'player2', videoId: 'c_wVwXROKLY', startTime: 10, endTime:12},
+  {elementId: 'player3', videoId: 'iKfS6vNJBLg', startTime: 5, endTime:10},
+  {elementId: 'player4', videoId: 'c_wVwXROKLY', startTime: 17, endTime:19},
+  {elementId: 'player5', videoId: 'tsatgvpZjxg', startTime: 16, endTime:23},
+  {elementId: 'player6', videoId: 'iZ-y4dAcmWg', startTime: 23, endTime:31},
+  {elementId: 'player7', videoId: 'c_wVwXROKLY', startTime: 11, endTime:14},
+  {elementId: 'player8', videoId: 'tsatgvpZjxg', startTime: 58, endTime:62},
+  {elementId: 'player9', videoId: 'iZ-y4dAcmWg', startTime: 36, endTime:43}
 ];
+
+
 function onYouTubeIframeAPIReady() {
   playerConfigs.forEach(function(config) {
     createPlayer(config.elementId, config.videoId, config.startTime, config.endTime);

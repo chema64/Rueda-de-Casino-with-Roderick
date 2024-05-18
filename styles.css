@@ -8,29 +8,15 @@ h1 {
     /* text-shadow: 1px 1px 7px white; */
 }
 
+#arriba{
+  /* border: thick solid blue; */
+}
 
- #contactData a{
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 3px white; 
-    /* text-shadow: 2px 2px 4px white; */
-  }
-
-  #contactData i{
-    font-size: 2.5rem;
-    text-shadow: 3px 4px 1px white; 
-    /* text-shadow: 2px 2px 4px white; */
-  }
-
-  #contactData .col-5 .d-flex, .col-7 .d-flex {
-    /* border: thick solid red; */
-    height: 600px;
-  }
-
-  body {
-    background-image: url(images/BusinessCardBackground_Large.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+body {
+  background-image: url(images/BusinessCardBackground_Large.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
  
@@ -41,22 +27,11 @@ h1 {
         background-color: lightgreen;
     } */
 
-    #contactData a{
-        font-size: 1.5rem;
-      }
-    
-      #contactData i{
-        font-size: 1.5rem;
-      }
 
     body {
         background-image: url(images/BusinessCardBackground_Small.png);
     }  
 
-    #contactData .col-5 .d-flex, .col-7 .d-flex {
-      /* border: thick solid red; */
-      height: 579px;
-    }
 
     h1 {
 
