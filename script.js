@@ -11,6 +11,9 @@ var playerConfigs = [
   {elementId: 'player10', videoId: 'tsatgvpZjxg', startTime: 74, endTime:80},
   {elementId: 'player11', videoId: '5iyloXlzWZ4', startTime: 6, endTime:19},
   {elementId: 'player12', videoId: 'GU-y05c2pys', startTime: 44, endTime:61},
+  {elementId: 'player13', videoId: 'iKfS6vNJBLg', startTime: 10, endTime:16},
+  {elementId: 'player14', videoId: 'iZ-y4dAcmWg', startTime: 51, endTime:58},
+  {elementId: 'player15', videoId: 'tsatgvpZjxg', startTime: 47, endTime:53},
 ];
 
 
