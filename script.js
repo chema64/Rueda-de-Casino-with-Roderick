@@ -7,7 +7,10 @@ var playerConfigs = [
   {elementId: 'player6', videoId: 'iZ-y4dAcmWg', startTime: 23, endTime:31},
   {elementId: 'player7', videoId: 'c_wVwXROKLY', startTime: 11, endTime:14},
   {elementId: 'player8', videoId: 'tsatgvpZjxg', startTime: 58, endTime:62},
-  {elementId: 'player9', videoId: 'iZ-y4dAcmWg', startTime: 36, endTime:43}
+  {elementId: 'player9', videoId: 'iZ-y4dAcmWg', startTime: 36, endTime:43},
+  {elementId: 'player10', videoId: 'tsatgvpZjxg', startTime: 74, endTime:80},
+  {elementId: 'player11', videoId: '5iyloXlzWZ4', startTime: 6, endTime:19},
+  {elementId: 'player12', videoId: 'GU-y05c2pys', startTime: 44, endTime:61},
 ];
 
 

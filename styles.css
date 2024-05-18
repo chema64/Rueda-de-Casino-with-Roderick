@@ -9,13 +9,13 @@ h1 {
 }
 
 #arriba{
-  /* border: thick solid blue; */
+   /* border: thick solid blue; */ */
 }
 
 body {
   background-image: url(images/BusinessCardBackground_Large.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 
